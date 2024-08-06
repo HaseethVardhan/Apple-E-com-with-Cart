@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/cart.css">    
+</head>
+<body>
+    <nav class="css-nav-bar">
+        <div class="logo">
+           <a href="index.html"><img src="images/logo.png" class="css-apple-logo"></a>
+        </div>
+        <div class="css-cart-logo">
+            <a href="cart.html"><img src="images/cartlogo.webp" class="css-cart-icon"></a>
+        </div>
+    </nav>
+
+    <div class="css-cart-delivery js-cart-delivery">
+        <div class="css-cart-expectedtime js-cart-expectedtime">
+            Expected Delivery on 12, August 2024
+        </div>
+        <div class="css-delivery-options">
+            <input class="js-delivery-radio" type="radio" id="standard" name="delop" value="0" checked>
+            <label for="standard">Standard Delivery <span>(FREE)</span></label><br>
+            <input class="js-delivery-radio" type="radio" id="quick" name="delop" value="100">
+            <label for="quick">Quick Delivery <span>(100RS)</span></label><br>
+            <input class="js-delivery-radio" type="radio" id="oneday" name="delop" value="500">
+            <label for="oneday">1-Day Delivery <span>(500RS)</span></label><br>
+        </div>
+    </div>
+
+    <div class="css-all-wrapper js-all-wrapper">
+        <div class="css-cart-wrapper js-cart-wrapper">
+            
+        </div>
+        <div class="css-price-summary js-price-summary">
+            
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+<script src="scripts/cartpage.js" type="module"></script>
+
+</html>

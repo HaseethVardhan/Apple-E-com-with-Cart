@@ -1,0 +1,114 @@
+body{
+    background-color: #f5f5f7;
+    font-family: "Inter", sans-serif;
+}
+
+.css-mtext{
+    display: flex;
+    align-items: center;
+    color: #6e6e73;
+    font-weight:600;
+    height: 350px;
+    font-size: 45px;
+    padding-left: 110px;
+    padding-right: 450px;
+}
+
+.css-tagline{
+    font-size: 28px;
+    color: #6e6e73;
+    font-weight: 600;
+    padding-left: 110px;
+}
+
+span{
+    color: black;
+}
+
+.css-product-wrapper{
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.css-product{
+    position: relative;
+    height: 430px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.219);
+}
+
+.css-product-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: none;
+    border-radius: 20px;
+}
+
+.css-product-price, .css-product-title,  .css-add-to-cart{
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.css-product-title{
+    top: 40px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.css-add-to-cart{
+    top: 120px;
+    color: #05a3ff;
+    background-color: transparent;
+    border: none;
+    mix-blend-mode: normal;
+}
+
+.css-add-to-cart:hover{
+    color: #05a3ff94;
+}
+
+.css-nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.logo{
+    height: 100%;
+    width: 20px;
+}
+
+.css-apple-logo{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.css-cart-logo{
+    height: 100%;
+    width: 20px;
+}
+
+.css-cart-icon{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,124 @@
+body{
+    background-color: #f5f5f7;
+    font-family: "Inter", sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.css-nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.logo{
+    height: 100%;
+    width: 20px;
+}
+
+.css-apple-logo{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.css-cart-logo{
+    height: 100%;
+    width: 20px;
+}
+
+.css-cart-icon{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.css-all-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.css-cart-delivery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+.css-cart-expectedtime{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.css-delivery-options span{
+    font-weight: bold;
+}
+
+.css-cart-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.css-cart-item{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    column-gap: 20px;
+}
+
+.css-cart-img-container{
+    width: 150px;
+    height: 150px;
+}
+
+.css-cart-item-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.css-cart-details{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: start;
+}
+
+.css-cart-item-name{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 22px;
+}
+
+.css-cart-item-price{
+    font-size: 15px;
+}
+
+.css-item-quantity button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 15px 15px;
+    font-weight: bolder;
+}
+
+.css-no-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    /* font-weight: bold; */
+    font-size: 40px;
+}
